@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Vishnupiriya</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: #c9d1d9;
+        }
+
+        header {
+            background: linear-gradient(135deg, #ff8c00, #ff0080);
+            text-align: center;
+            padding: 2rem 0;
+            position: relative;
+            color: #fff;
+        }
+
+        .profile-picture {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            border: 3px solid #fff;
+        }
+
+        nav {
+            background-color: #1f2937;
+            text-align: center;
+            padding: 10px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #facc15;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #38bdf8;
+        }
+
+        .section-content {
+            padding: 2rem;
+            margin: 1rem;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .section-content:hover {
+            transform: scale(1.02);
+        }
+
+        h2 {
+            text-decoration: underline;
+        }
+	a {
+    color: #ff8c00; /* Orange color */
+    text-decoration: none;
+	}
+
+	a:hover {
+    color: #38bdf8; /* Light blue on hover */
+	}
+	.download-button {
+            background: linear-gradient(135deg, #ff8c00, #ff0080);
+            color: #fff;
+            padding: 0.7rem 1.5rem;
+            text-decoration: none;
+            border-radius: 20px;
+            display: inline-block;
+            transition: background 0.3s;
+        }
+
+        .download-button:hover {
+            background: linear-gradient(135deg, #ff0080, #ff8c00);
+        }
+        #about {
+            background-color: #2a3b5a;
+        }
+        #education {
+            background-color: #2e4756;
+        }
+        #skills {
+            background-color: #354f52;
+        }
+        #projects {
+            background-color: #3b6064;
+        }
+        #resume {
+            background-color: #415a77;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #1f2937;
+            color: #facc15;
+        }
+
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+            }
+
+            .profile-picture {
+                position: relative;
+                left: auto;
+                top: auto;
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="VishnuPiriya.jpeg" alt="Your Profile Picture" class="profile-picture">
+        <h1>Vishnupiriya M</h1>
+        <p>Software Developer</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+        </ul>
+    </nav>
+
+    <section id="about" class="section-content">
+        <h2>About Me</h2>
+        <p>I am M. Vishnupiriya, a passionate and dedicated B.Sc. Computer Science student at Government Arts College, Ariyalur. I am eager to start my career in the technology industry, with a strong foundation in programming, problem-solving, and software development.</p>
+    </section>
+
+    <section id="education" class="section-content">
+        <h2>Education</h2>
+            <ul>
+            <li><strong>B.Sc. Computer Science</strong> - Bharathidasan University (60%) (PURSUING)</li>
+            <li><strong>HSC</strong> - GOVT GIRLS HR SEC SCHOOL KUNNAM (78%) (2021)</li>
+            <li><strong>SSLC</strong> -  GOVT GIRLS HR SEC SCHOOL KUNNAM  (68%) (2019)</li>
+        </ul>
+    </section>
+
+    <section id="skills" class="section-content">
+        <h2>Skills</h2>
+        <ul>
+             <li>Cloud Computing</li>
+            <li>Python</li>
+            <li>Machine Learning & AI</li>
+            <li>Java</li>
+            <li>C++</li>
+            <li>JavaScript</li>
+     	</ul>
+    </section>
+
+    <section id="projects" class="section-content">
+        <h2>Projects</h2>
+        <ul>
+            <li><a href="#"> portfolio </a></li>
+        </ul>
+    </section>
+
+    <section id="resume" class="section-content" style="text-align: center;">
+        <h2>Resume</h2>
+        <a href="Vishnupriya.jpg" target="_blank" class="download-button">Download CV</a>
+    </section>
+
+    <footer>
+        <p>Vishnupiriya &copy; 2025</p>
+    </footer>
+</body>
+</html>
